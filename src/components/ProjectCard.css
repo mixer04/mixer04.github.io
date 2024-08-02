@@ -1,0 +1,56 @@
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #16161619;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Ensure text color is readable on white background */
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 147, 235, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.tech {
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+.project a {
+    color: rgb(0, 147, 233);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+    width: auto;
+}
+
+.project a:hover {
+    text-decoration: none;
+}
